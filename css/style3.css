@@ -9,5 +9,12 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+    background-color: lightblue;
+}
+
+#main-title{
+  color: white;
+  font-family: verdana;
+  text-align: center;
+  font-size: 60px;
 }
