@@ -19,7 +19,7 @@ body{
   font-size: 20px;
 }
 
-.pslo{
+/*#pslo{
   color: red;
   border-radius: 50px;
   padding: 20px;
@@ -27,9 +27,43 @@ body{
   margin: 10px;
   max-width: 870px;
   margin:auto;
+}*/
+
+#pslo{
+  width:600px;
+  float:right;
+  text-align: left;
+  background-color: black;
+
+
+}
+#courses{
+  width:600px;
+  float:left;
+  text-align: left;
+  background-color: black;
+
+}
+#faculty{
+  width: 600px;
+  float:left;
+  text-align: left;
+  background-color: blue;
 }
 
-#faculty{
-  color: lightseagreen;
+
+#validation {
+  width: 600px;
+  float:right;
+  text-align: left;
+  background-color: blue;
+}
+
+#style li a {
+  width: 600px;
+  float: right;
+  color:black;
+  text-align: left;
+  background-color: blue;
 }
 
