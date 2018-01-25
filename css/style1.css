@@ -52,14 +52,14 @@ h2 {
     padding-left: 0
 }
 
-img.pic {white
+img.pic {
     height: 150px;
     border: 4px solid #000000;
 }
 
 #style ul {
     list-style-type: none;
-    margin: 0;darkorange
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -98,3 +98,4 @@ img.pic {white
   font-size: 80%;
   background-color: #d5d6d2;
 }
+/*heyo*/
