@@ -1,16 +1,3 @@
-/*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
-
-*/
-
-/*body{
-    //padding: 30px;
-    //background-color: #ffffff;
-}*/
 
 body{
   background-color: #E8EDF1;
@@ -26,15 +13,6 @@ body{
   padding-top: 50px;
 }
 
-/*#pslo{
-  color: red;
-  border-radius: 50px;
-  padding: 20px;
-  border: 5px solid;
-  margin: 10px;
-  max-width: 870px;
-  margin:auto;
-}*/
 
 #pslo{
   width:600px;
@@ -69,27 +47,6 @@ body{
   font-size: 20px;
 }
 
-
-/*#validation {
-  width: 600px;
-  float:right;
-  text-align: left;
-  background-color: white;
-  color: black;
-}*/
-
-/*#style li a {
-  width: 600px;
-  float: right;
-  color:black;
-  text-align: left;
-  background-color: orangered;
-}*/
-
-
-
-
-
 #style ul {
   list-style-type: none;
   margin: 0;
@@ -110,7 +67,7 @@ body{
   text-decoration: none;
 }
 
-/* Change the link color to #000 (black) on hover */
+
 #style li a:hover {
   background-color: #A4B9C6;
   font-weight: bold;
