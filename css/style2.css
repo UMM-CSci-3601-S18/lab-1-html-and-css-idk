@@ -1,50 +1,106 @@
 
 body{
-  background-color: #E8EDF1;
+  background-image: url("https://wallup.net/wp-content/uploads/2015/12/4929-anime-nature-snow-winter-cold-sunlight-peaceful.jpg");
   text-align:center;
 
 }
+
+/*The first change is background images being put up. Our navigation bar and our page has two
+seperate backgrounds.*/
+
 #main-title{
-  color: #BEAED4;
-  font-family:  Carlito;
+
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family:  Verdana;
   text-align: center;
   font-size: 60px;
   font-weight: bold;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
+/*The second change is we put a shadow on the main title and also that each section now
+has their own hover properties that changes when you bring your cursor there.*/
 
 
-#pslo{
-  width:600px;
-  float:left;
-  text-align: center;
-  background-color: #FF8868;
-}
 
-#pslo ol{
-  text-align: left;
-}
-#courses{
-  width:600px;
-  float:left;
-  text-align: center;
-  background-color: #A4B9C6;
-}
 
-#courses ul{
-  text-align: left
+.section{
+  border: solid;
 }
 
 #faculty{
-  width: 300px;
-  float:left;
-  text-align: center;
-  background-color: #82D580;
+  width: 400px;
+  float: left;
+  text-align: centertext-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+  background-color: #F4D4D4;
+  font-family: verdana;
+  color: navy;
 }
+
+/*The third change is each faculty image has their own background border and using hover the image responds as well*/
+
+
 #faculty ul{
   color: #6666CC;
-  text-align: left;
+  text-align: center;
   font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+img.pic {
+  border: 4px solid salmon;
+  border-image: url("https://classroomclipart.com/images/gallery/Clipart/Borders/fish_border.jpg") 30 round;
+}
+
+img.pic:hover {
+  visibility: hidden;
+}
+/*The fourth change is the part that we broke the sections down to sync them up next to each other*/
+/* The fifth change is the change in font and color from the starting one*/
+
+#pslo{
+  width:700px;
+  height:500px;
+  font-family: "Courier New";
+  color: navy;
+  float: right;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+
+#pslo ol{
+  font-size: larger;
+  font-family: Verdana;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+#courses{
+  width:771px;
+  height:500px;
+  float:right;
+  text-align: center;
+  background-color: #EBE5E4	;
+  color:#5B7484;
+  font-family: verdana;
+
+}
+
+/*Using grouping rule*/
+
+#faculty :hover, #courses :hover, #pslo :hover,#validation :hover{
+  font-style: italic;
+  background-color: lightblue;
+}
+
+#courses ul{
+  text-align: left;
+  color: #6666CC;
+  font-weight: bold;
 }
 
 #style ul {
@@ -52,7 +108,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #E8EDF1;
+  background-image: url("https://dalehartery.files.wordpress.com/2016/12/free-christmas-blue-background-2.png");
 }
 
 #style li {
@@ -60,6 +116,7 @@ body{
 }
 
 #style li a {
+  font-family: Verdana;
   display: inline-table;
   color: black;
   text-align: center;
@@ -69,8 +126,9 @@ body{
 
 
 #style li a:hover {
-  background-color: #A4B9C6;
+  background-color: lightcyan;
   font-weight: bold;
+  color: navy;
 }
 
 #style {
@@ -83,13 +141,19 @@ body{
   padding-top: 10px;
 }
 #validation {
+  font-family: "Courier New";
   font-size: 20px;
   background-color: #d5d6d2;
   text-align: center;
+  float:right;
+  width:1477px;
+  border: solid;
 }
+
+
 #validation ul{
   list-style-type: none;
   text-align: center;
   font-size: 20px;
-  font-family: Calibri;
+  font-family: "Courier New";
 }
