@@ -88,7 +88,9 @@ h2, h1{
 
 }
 
-img.pic {  border-radius: 50%}
+img.pic {
+  border-radius: 50%
+}
 
 .card .section{ /* An example of grouping*/
   font-family: Verdana;
@@ -124,8 +126,8 @@ color: white;
 }
 
 #style {
-  position: fixed;
-  background-color: whitThis criterion is linked to a Learning Outcome At least 5 sufficiently different from the other style sheets css rules used and described in style 3.csse;
+  position: absolute;
+  background-color: white;
   left: 0;
   right: 0;
   top: 0;
