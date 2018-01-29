@@ -1,4 +1,7 @@
 
+
+body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );}
+
 #main-title{
   font-family: monospace;
   text-align: center;
@@ -6,12 +9,12 @@
   margin-top:150px;
 }
 
-h2, h1{
+h2, h1{/*grouping*/
   color: #7A0019;
   font-family: "Old Standard";
   font-size: 30px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline; /*underline all the h1 and h2 elements */
 }
 
 #pslo {
@@ -19,8 +22,8 @@ h2, h1{
   border: 5px ridge;
   background-color: #ece3e0;
   padding: 10px;
-  margin-left: auto; /* this makes the width work*/
-  margin-right: auto; /* this makes the width work*/
+  margin-left: auto;
+  margin-right: auto;
   width: 1400px;
   text-align: center;
 
@@ -36,21 +39,21 @@ h2, h1{
   border: 5px ridge;
   background-color: #ece3e0;
   padding: 10px;
-  margin-left: auto; /* this makes the width work*/
-  margin-right: auto; /* this makes the width work*/
+  margin-left: auto;
+  margin-right: auto;
   width: 1400px;
   text-align: center;
   height: auto;
 }
 
-#courses>ul>li{
+#courses>ul>li{ /* change first unorder list to upper roman*/
   text-align:left;
   list-style-type: upper-roman;
 }
-#courses>ul>li>ul>li{
+#courses>ul>li>ul>li{ /*change second unorder list to lower latin*/
   list-style-type: lower-latin;
 }
-#courses>ul>li>ul>li>ul{
+#courses>ul>li>ul>li>ul{ /* change third unorder list to lower greek*/
   list-style-type: lower-greek;
 }
 
@@ -60,8 +63,8 @@ h2, h1{
   border: 5px ridge;
   background-color: #ece3e0;
   padding: 10px;
-  margin-left: auto; /* this makes the width work*/
-  margin-right: auto; /* this makes the width work*/
+  margin-left: auto;
+  margin-right: auto;
   width: 1400px;
   text-align: center;
 }
@@ -70,9 +73,11 @@ h2, h1{
 
 #faculty>ul>li { /*nesting*/
   display: inline-block;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: Verdana, VL Gothic;
   padding: 30px;
   font-style: italic;
+  color: orangered;
+
 }
 
 .card {
@@ -80,16 +85,36 @@ h2, h1{
   border: 5px ridge;
   background-color: #ece3e0;
   padding: 10px;
-  margin-left: auto; /* this makes the width work*/
-  margin-right: auto; /* this makes the width work*/
+  margin-left: auto;
+  margin-right: auto;
   width: 1400px;
   text-align: center;
-
-
 }
 
-img.pic {
-  border-radius: 50%
+/*#validation:hover {
+  transform: rotateX(150dg);
+}*/
+
+img.pic { /* change image radius to 50%. This change image shapes to circle.*/
+  border-radius: 50%;
+}
+
+
+@media (min-width: 1500px){ /* this code makes picture blur and each picture has different opacity, which mean each picture has different blur percentage*/
+  #Elena{
+    opacity: 0.1;
+  }
+  #KK{
+    opacity: .3;
+  }
+
+  #Nic{
+    opacity: .6;
+  }
+
+  #Peter{
+    opacity: 1.0;
+  }
 }
 
 .card .section{ /* An example of grouping*/
@@ -111,22 +136,23 @@ img.pic {
 }
 
 
-/*#syle li a changes top tab which is style 1,2,3*/
+
 #style li a {
   display: block;.
 color: white;
   text-align: center;
-  padding: 14px 16px; /*this adds some spacing around the items in our style footer*/
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #000 (black) on hover */
+
 #style li a:hover {
   background-color: darkseagreen;
+  width:1910px;
 }
 
 #style {
-  position: absolute;
+  position: absolute; /* this makes navigation bar fixed on top even we scroll down the page*/
   background-color: white;
   left: 0;
   right: 0;
