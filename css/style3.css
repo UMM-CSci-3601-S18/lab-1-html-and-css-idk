@@ -1,6 +1,6 @@
 
 
-body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );}
+body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );} /* this code change background color*/
 
 #main-title{
   font-family: monospace;
@@ -11,7 +11,7 @@ body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );}
 
 h2, h1{/*grouping*/
   color: #7A0019;
-  font-family: "Old Standard";
+  font-family: Helvetica;
   font-size: 30px;
   font-weight: bold;
   text-decoration: underline; /*underline all the h1 and h2 elements */
@@ -32,7 +32,7 @@ h2, h1{/*grouping*/
   text-align: left;
   color: orangered;
   font-size: 20px;
-  font-family: "Courier New";
+  font-family: Courier New;
 }
 #courses{
   border-radius: 25px;
@@ -73,7 +73,7 @@ h2, h1{/*grouping*/
 
 #faculty>ul>li { /*nesting*/
   display: inline-block;
-  font-family: Verdana, VL Gothic;
+  font-family: VL Gothic;
   padding: 30px;
   font-style: italic;
   color: orangered;
@@ -118,7 +118,7 @@ img.pic { /* change image radius to 50%. This change image shapes to circle.*/
 }
 
 .card .section{ /* An example of grouping*/
-  font-family: Verdana;
+  font-family: VL Gothic;
 
 }
 
