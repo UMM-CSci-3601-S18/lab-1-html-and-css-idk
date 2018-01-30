@@ -1,17 +1,18 @@
 
-
-body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );} /* this code change background color*/
+/*this is first change*/
+body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );} /* this code change background color */
 
 #main-title{
+  color: #526187;
   font-family: monospace;
   text-align: center;
   font-size: 4rem;
   margin-top:150px;
 }
-
+/*second change*/
 h2, h1{/*grouping*/
   color: #7A0019;
-  font-family: Helvetica;
+  font-family: "VL Gothic";
   font-size: 30px;
   font-weight: bold;
   text-decoration: underline; /*underline all the h1 and h2 elements */
@@ -32,7 +33,7 @@ h2, h1{/*grouping*/
   text-align: left;
   color: orangered;
   font-size: 20px;
-  font-family: Courier New;
+  font-family: "VL Gothic";
 }
 #courses{
   border-radius: 25px;
@@ -45,7 +46,7 @@ h2, h1{/*grouping*/
   text-align: center;
   height: auto;
 }
-
+/*rest of courses are third changes*/
 #courses>ul>li{ /* change first unorder list to upper roman*/
   text-align:left;
   list-style-type: upper-roman;
@@ -73,12 +74,13 @@ h2, h1{/*grouping*/
 
 #faculty>ul>li { /*nesting*/
   display: inline-block;
-  font-family: VL Gothic;
+  font-family: "VL Gothic";
   padding: 30px;
   font-style: italic;
   color: orangered;
 
 }
+
 
 .card {
   border-radius: 5px;
@@ -95,21 +97,23 @@ h2, h1{/*grouping*/
   transform: rotateX(150dg);
 }*/
 
+
+/*this is fith change*/
 img.pic { /* change image radius to 50%. This change image shapes to circle.*/
   border-radius: 50%;
 }
 
-
+/*this is sixth change*/
 @media (min-width: 1500px){ /* this code makes picture blur and each picture has different opacity, which mean each picture has different blur percentage*/
   #Elena{
-    opacity: 0.1;
+    opacity: 0.4;
   }
   #KK{
-    opacity: .3;
+    opacity: .6;
   }
 
   #Nic{
-    opacity: .6;
+    opacity: .8;
   }
 
   #Peter{
@@ -118,7 +122,7 @@ img.pic { /* change image radius to 50%. This change image shapes to circle.*/
 }
 
 .card .section{ /* An example of grouping*/
-  font-family: VL Gothic;
+  font-family: "VL Gothic";
 
 }
 
