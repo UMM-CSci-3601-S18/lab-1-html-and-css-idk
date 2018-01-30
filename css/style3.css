@@ -1,5 +1,5 @@
 
-/*this is first change*/
+/*This is the first change. We have a gradient background*/
 body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );} /* this code change background color */
 
 #main-title{
@@ -9,13 +9,13 @@ body{background: linear-gradient(to right, #4D2831, #B50B1E,#0D1130,#526187 );} 
   font-size: 4rem;
   margin-top:150px;
 }
-/*second change*/
-h2, h1{/*grouping*/
+/*This is our second change*/
+h2, h1{/* Uses grouping*/
   color: #7A0019;
   font-family: "VL Gothic";
   font-size: 30px;
   font-weight: bold;
-  text-decoration: underline; /*underline all the h1 and h2 elements */
+  text-decoration: underline; /*underlined all the h1 and h2 elements */
 }
 
 #pslo {
@@ -46,15 +46,15 @@ h2, h1{/*grouping*/
   text-align: center;
   height: auto;
 }
-/*rest of courses are third changes*/
-#courses>ul>li{ /* change first unorder list to upper roman*/
+/*The rest of courses are third changes*/
+#courses>ul>li{ /* We changed the Unordered list to Upper Roman numbers list*/
   text-align:left;
   list-style-type: upper-roman;
 }
-#courses>ul>li>ul>li{ /*change second unorder list to lower latin*/
+#courses>ul>li>ul>li{ /*We changed the second unorder list to Lower latin list*/
   list-style-type: lower-latin;
 }
-#courses>ul>li>ul>li>ul{ /* change third unorder list to lower greek*/
+#courses>ul>li>ul>li>ul{ /*We changed the third unorder list to Lower greek*/
   list-style-type: lower-greek;
 }
 
@@ -72,7 +72,7 @@ h2, h1{/*grouping*/
 
 
 
-#faculty>ul>li { /*nesting*/
+#faculty>ul>li { /*Used Nesting*/
   display: inline-block;
   font-family: "VL Gothic";
   padding: 30px;
@@ -98,13 +98,13 @@ h2, h1{/*grouping*/
 }*/
 
 
-/*this is fith change*/
-img.pic { /* change image radius to 50%. This change image shapes to circle.*/
+/*This is our fifth change*/
+img.pic { /* We changed the image radius to 50%. This change changed image shape to circle.*/
   border-radius: 50%;
 }
 
-/*this is sixth change*/
-@media (min-width: 1500px){ /* this code makes picture blur and each picture has different opacity, which mean each picture has different blur percentage*/
+/*This is our sixth change*/
+@media (min-width: 1500px){ /* This code makes the picture blurred and each picture has different opacity, which mean each picture has different blur percentage*/
   #Elena{
     opacity: 0.4;
   }
@@ -155,8 +155,10 @@ color: white;
   width:1910px;
 }
 
+/*This is our sevenths change*/
+
 #style {
-  position: absolute; /* this makes navigation bar fixed on top even we scroll down the page*/
+  position: absolute; /* This makes navigation bar fixed on top even we scroll down the page*/
   background-color: white;
   left: 0;
   right: 0;
